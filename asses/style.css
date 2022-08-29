@@ -1,0 +1,140 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+img{
+    width: 24px;
+    height: 24px;
+}
+.logo-section img{
+    width: 272px;
+    height: 92px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* NAVBAR */
+.navbar{
+ 
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+   
+    
+}
+.navbar nav{
+    display: flex;
+    flex-basis: 10%;
+    gap: 10px;
+    
+}
+.navbar nav >button{
+    margin-right: 15px;
+    width: max-content;
+    background-color: rgb(59, 59, 206);
+    color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 7px;
+}
+/* SECTION */
+section{
+flex: 1;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+   
+}
+.search{
+  
+    position: relative;
+    /* min-width: 582px; */
+
+}
+.search input{
+   /* width: 100%; */
+   width: 582px;
+    height: 44px;
+    border-radius: 25px;
+    border: 1px solid #dedede;
+    outline: none;
+    padding: 0 45px;
+   
+}
+.search input:hover{
+    box-shadow: 10px 10px lightblue;
+
+}
+.s-icon{
+    position: absolute;
+   top: 26%;
+   /* left: 3%; */
+}
+ .vs-icon{
+    position: absolute;
+ }
+/* .button-groups{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px; 
+} */
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.buttons >button{
+    opacity: 0.7;
+    border: 1px solid #dedede;
+    width: 128px;
+    height: 36px;
+}
+.buttons >button:hover{
+
+    box-shadow: 10px 10px ;
+    
+
+}
+
+/* FOOTER */
+footer{
+    flex-basis: 10%;
+    background-color: rgb(220, 215, 215);
+
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 0 15px;
+}
+.footer >h4{
+    padding-left: 15px;
+    font-size: 25px;
+    
+}
+.left-footer{
+    display: flex;
+    gap: 10px;
+    
+}
+.right-footer{
+    display: flex;
+    gap: 10px;
+}
